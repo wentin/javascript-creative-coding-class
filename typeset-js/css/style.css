@@ -1,0 +1,35 @@
+body {
+  text-rendering: optimizeLegibility;
+  font-family: Times, Georgia, serif;
+  -webkit-font-variant-ligatures: common-ligatures;
+     -moz-font-variant-ligatures: common-ligatures;
+          font-variant-ligatures: common-ligatures;
+  font-feature-settings: "liga", "clig";
+  -moz-font-feature-settings: "liga", "clig";
+  -ms-font-feature-settings: "liga", "clig";
+  -webkit-font-feature-settings: "liga", "clig";
+}
+
+.demo {
+  box-sizing: border-box;
+  font-size: 22px;
+  line-height: 130%;
+  position: relative;
+}
+
+.container {
+  max-width: 600px;
+  padding: 1em 0 2.33em;
+  margin: 0 auto;
+  position: relative;
+  overflow: visible;
+}
+
+.small-caps {
+  font-size: 1.025em;
+  line-height: 0em;
+  display: inline;
+  text-transform: lowercase;
+}
+
+/*# sourceMappingURL=style.css.map */
